@@ -1,0 +1,41 @@
+name: irodoku
+description: Irodoku - A colorful Sudoku variant using colors instead of numbers.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  riverpod: ^2.4.0
+  flutter_riverpod: ^2.4.0
+  
+  # UI & Animation
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.1.1
+  
+  # Utilities
+  uuid: ^4.0.0
+  
+  # Persistence
+  shared_preferences: ^2.2.2
+  sqflite: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_linter: ^3.0.0
+  riverpod_generator: ^2.3.0
+  build_runner: ^2.4.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/
