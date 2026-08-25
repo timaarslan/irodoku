@@ -1,0 +1,24 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    - camel_case_types
+    - empty_constructor_bodies
+    - library_names
+    - library_prefixes
+    - non_constant_identifier_names
+    - prefer_adjacent_string_concatenation
+    - prefer_const_constructors
+    - unnecessary_const
+    - unnecessary_import
+    - unnecessary_new
+    - unnecessary_statements
+
+analyzer:
+  exclude: [build/*, .dart_tool/*]
+  enable-experiment:
+    - records
+  errors:
+    missing_required_param: warning
+    missing_return: warning
+    todo: ignore
