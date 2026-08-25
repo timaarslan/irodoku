@@ -16,8 +16,6 @@ linter:
 
 analyzer:
   exclude: [build/*, .dart_tool/*]
-  enable-experiment:
-    - records
   errors:
     missing_required_param: warning
     missing_return: warning
